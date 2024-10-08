@@ -1,14 +1,25 @@
 {
   "name": "rosemont-java-snippets",
   "displayName": "Rosemont Java Snippets",
-  "description": "Snippets de code pour les cours d'introduction à la programmation en Java au Cégep Rosemont.",
+  "description": "Snippets VS Code pour les cours d'introduction à la programmation en Java au Cégep Rosemont.",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.94.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Snippets"
   ],
+  "icon": "icons/logo-rosemont.png",
+  "publisher": "CegepRosemont",
+  "author": {
+    "name": "Pierre Olivier Martel",
+    "email": "pmartel@crosemont.qc.ca",
+    "url": "https://github.com/pomartel"
+  },
+  "repository": {
+    "url": "https://github.com/pomartel/rosemont-java-snippets",
+    "type": "git"
+  },
   "contributes": {
     "snippets": [
       {
