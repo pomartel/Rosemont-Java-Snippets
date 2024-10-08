@@ -1,0 +1,20 @@
+{
+  "name": "rosemont-java-snippets",
+  "displayName": "Rosemont Java Snippets",
+  "description": "Snippets de code pour les cours d'introduction à la programmation en Java au Cégep Rosemont.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "java",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
