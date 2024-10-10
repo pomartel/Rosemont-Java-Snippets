@@ -36,7 +36,7 @@
 	"Print to console": {
 		"prefix": "pr",
 		"body": [
-			"System.out.print(\"$0\")"
+			"System.out.println(\"$0\");"
 		],
 	},
 	"Scanner int": {
