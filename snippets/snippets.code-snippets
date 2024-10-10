@@ -5,12 +5,62 @@
 	// same ids are connected.
 	// Example:
 	"Template for Class with Main method": {
-		"prefix": "bp",
+		"prefix": "tp",
 		"body": [
-			"Class $TM_FILENAME_BASE {",
-			"\t$1",
+			"import java.util.Scanner;",
+			"",
+			"/**",
+			"* Énoncé :", 
+			"* $0",
+			"* Entrées : ",
+			"* Sorties : ",
+			"* Constantes : ",
+			"*/",
+			"public class $TM_FILENAME_BASE {",
+			"",
+			"\tpublic static void main(String[] args) {",
+			"\t\tScanner sc = new Scanner(System.in);",
+			"\t\t",
+			"\t\t// Étape 1...",
+			"\t\t",
+			"\t\t// Étape 2...",
+			"\t\t",
+			"\t\t// Étape 3...",
+			"\t\t",
+			"\t\tsc.close();",
+            "\t}",
             "}"
 		],
-		"description": "Boilerplate for basic class creation"
-	}
+		"description": "Template for basic class creation"
+	},
+	"Print to console": {
+		"prefix": "pr",
+		"body": [
+			"System.out.print(\"$0\")"
+		],
+	},
+	"Scanner int": {
+		"prefix": "si",
+		"body": [
+			"int ${1:maVariable} = sc.nextInt();"
+		],
+	},
+	"Scanner double": {
+		"prefix": "sd",
+		"body": [
+			"double ${1:maVariable} = sc.nextDouble();"
+		],
+	},
+	"Scanner boolean": {
+		"prefix": "sb",
+		"body": [
+			"boolean ${1:maVariable} = sc.nextBoolean();"
+		],
+	},
+	"Scanner String": {
+		"prefix": "ss",
+		"body": [
+			"String ${1:maVariable} = sc.nextLine();"
+		],
+	},
 }
