@@ -2,7 +2,7 @@
   "name": "rosemont-java-snippets",
   "displayName": "Rosemont Java Snippets",
   "description": "Snippets VS Code pour les cours d'introduction à la programmation en Java au Cégep Rosemont.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.80.0"
   },
