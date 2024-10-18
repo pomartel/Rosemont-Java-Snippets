@@ -6,6 +6,13 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"type": "java",
+			"name": "Test",
+			"request": "launch",
+			"mainClass": "Test",
+			"projectName": "rosemont-java-snippets_ec735799"
+		},
+		{
 			"name": "Extension",
 			"type": "extensionHost",
 			"request": "launch",
