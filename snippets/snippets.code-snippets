@@ -5,12 +5,30 @@
 	// same ids are connected.
 	// Example:
 	"Template for Class with Main method": {
+		"prefix": "ts",
+		"body": [
+			"import java.util.Scanner;",
+			"",
+			"public class $TM_FILENAME_BASE {",
+			"",
+			"\tpublic static void main(String[] args) {",
+			"\t\tScanner sc = new Scanner(System.in);",
+			"\t\t",
+			"\t\t$0",
+			"\t\t",
+			"\t\tsc.close();",
+			"\t}",
+			"}"
+		],
+		"description": "Template for basic class creation"
+	},
+	"Template for Class with Main method and comments": {
 		"prefix": "tp",
 		"body": [
 			"import java.util.Scanner;",
 			"",
 			"/**",
-			"Énoncé :", 
+			"Énoncé :",
 			"$0",
 			"Entrées : ",
 			"Sorties : ",
@@ -26,10 +44,10 @@
 			"\t\t// Étape 2...",
 			"\t\t",
 			"\t\tsc.close();",
-            "\t}",
-            "}"
+			"\t}",
+			"}"
 		],
-		"description": "Template for basic class creation"
+		"description": "Template for class creation with comments"
 	},
 	"Print to console": {
 		"prefix": "pr",
