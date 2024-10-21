@@ -2,7 +2,7 @@
   "name": "rosemont-java-snippets",
   "displayName": "Rosemont Java Configuration",
   "description": "Extension pour les cours d'introduction à la programmation en Java au Cégep Rosemont.",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -31,10 +31,15 @@
       "editor.minimap.enabled": false,
       "files.autoSave": "onFocusChange",
       "files.trimTrailingWhitespace": true,
+      "git.autofetch": true,
+      "git.enableSmartCommit": true,
       "editor.formatOnSave": true,
       "editor.formatOnPaste": true,
       "java.inlayHints.parameterNames.enabled": "none",
-      "redhat.telemetry.enabled": true
+      "redhat.telemetry.enabled": true,
+      "errorLens.enabledDiagnosticLevels": [
+        "error"
+      ]
     }
   },
   "extensionDependencies": [
