@@ -48,6 +48,7 @@
     "ms-ceintl.vscode-language-pack-fr",
     "redhat.java",
     "vscjava.vscode-java-debug",
-    "usernamehw.errorlens"
+    "usernamehw.errorlens",
+    "visualstudioexptteam.vscodeintellicode"
   ]
 }
