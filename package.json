@@ -33,6 +33,8 @@
       "files.trimTrailingWhitespace": true,
       "git.autofetch": true,
       "git.enableSmartCommit": true,
+      "git.confirmEmptyCommits": false,
+      "git.postCommitCommand": "push",
       "editor.formatOnSave": true,
       "editor.formatOnPaste": true,
       "java.inlayHints.parameterNames.enabled": "none",
