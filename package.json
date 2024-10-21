@@ -2,7 +2,7 @@
   "name": "rosemont-java-snippets",
   "displayName": "Rosemont Java Configuration",
   "description": "Extension pour les cours d'introduction à la programmation en Java au Cégep Rosemont.",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "engines": {
     "vscode": "^1.80.0"
   },
