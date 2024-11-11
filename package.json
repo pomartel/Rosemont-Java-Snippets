@@ -2,7 +2,7 @@
   "name": "rosemont-java-snippets",
   "displayName": "Rosemont Java Configuration",
   "description": "Extension pour les cours d'introduction à la programmation en Java au Cégep Rosemont.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -52,8 +52,7 @@
     "vscjava.vscode-java-debug",
     "usernamehw.errorlens",
     "visualstudioexptteam.vscodeintellicode",
-    "ms-vscode-remote.remote-ssh",
-    "ms-vscode-remote.remote-ssh-edit",
-    "ms-vscode.remote-explorer"
+    "ms-vscode.remote-repositories",
+    "github.remotehub"
   ]
 }
