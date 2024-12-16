@@ -73,10 +73,10 @@
 			"boolean ${1:maVariable} = sc.nextBoolean();"
 		],
 	},
-	"Scanner String token": {
+	"Scanner String line": {
 		"prefix": "ss",
 		"body": [
-			"String ${1:maVariable} = sc.next();"
+			"String ${1:maVariable} = sc.nextLine();"
 		],
 	},
 }
